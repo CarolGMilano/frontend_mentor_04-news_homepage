@@ -1,0 +1,27 @@
+@import url('mobile/body.css');
+@import url('mobile/header.css');
+@import url('mobile/nav-hamburguer.css');
+@import url('mobile/main.css');
+@import url('mobile/main-new.css');
+@import url('mobile/main-ranking.css');
+
+@import url('desktop/body.css');
+@import url('desktop/header.css');
+@import url('desktop/main.css');
+@import url('desktop/main-new.css');
+@import url('desktop/main-ranking.css');
+
+@import url('max-screen/body.css');
+@import url('max-screen/header.css');
+@import url('max-screen/main.css');
+
+:root {
+    --branco: hsl(36, 100%, 99%);
+    --cinza_azulado: hsl(236, 13%, 42%);
+    --cinza_claro_azulado: hsl(233, 8%, 79%);
+    --cinza_escuro_azulado: hsl(240, 100%, 5%);
+    --laranja: hsl(35, 77%, 62%);
+    --vermelho: hsl(5, 85%, 63%);
+
+    --fonte: 'Inter', sans-serif;
+}

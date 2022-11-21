@@ -1,0 +1,25 @@
+@media screen and (min-width: 800px) {
+    .corpo__new {
+        grid-area: new;
+        margin: 0;
+    }
+
+    .new__titulo {
+        font-size: 35px;
+    }
+
+    .artigos__titulo {
+        font-size: 20px;
+        transition: .3s;
+    } 
+
+    .artigos__titulo:hover {
+        color: var(--laranja);
+        opacity: .5;
+    }
+
+    .artigos__resumo {
+        font-size: 15px;
+        line-height: 1.5rem;
+    }
+}

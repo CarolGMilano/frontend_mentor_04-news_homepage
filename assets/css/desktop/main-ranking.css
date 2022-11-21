@@ -1,0 +1,44 @@
+@media screen and (min-width: 800px) {
+    .corpo__ranking {
+        margin: 0;
+        width: 320px;
+    }
+
+    .ranking__img {
+        width: 100px;
+        height: auto;
+    }
+
+    .container__titulo {
+        font-size: 30px;
+        transition: .3s;
+    }
+
+    .container__subtitulo {
+        font-size: 16px;
+    }
+
+    .corpo__ranking:hover .container__titulo {
+        color: var(--vermelho);
+    }
+
+    .corpo__ranking:hover .ranking__img {
+        border: 2px dotted var(--laranja);
+    }
+
+    .container__resumo {
+        font-size: 13px;
+    }
+    
+    .rank1 {
+        grid-area: rank1;
+    }
+
+    .rank2 {
+        grid-area: rank2;
+    }
+
+    .rank3 {
+        grid-area: rank3;
+    }
+}

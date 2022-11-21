@@ -1,0 +1,25 @@
+body {
+    background-color: var(--branco);
+    padding: 2rem 1.2rem;
+    font-family: var(--fonte);
+    display: flex;
+    flex-direction: column;
+    row-gap: 1.5rem;
+    position: relative;
+}
+
+.esconder {
+    display: none;
+}
+
+.aparecer {
+    display: flex;
+}
+
+.blur {
+    filter: blur(5px);
+}
+
+.hidden {
+    overflow: hidden;
+}

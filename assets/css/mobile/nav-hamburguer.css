@@ -1,0 +1,31 @@
+.hamburguer__nav {
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-color: var(--branco);
+    padding: 2rem 1rem;
+    width: 69%;
+    height: 100vh;
+    flex-direction: column;
+    row-gap: 5rem;
+    z-index: 1;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.hamburguer__nav .nav__icone {
+    align-self: flex-end;
+    width: 32px;
+    height: auto;
+}
+
+.hamburguer__nav ul {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1.5rem;
+}
+
+.hamburguer__link {
+    color: var(--preto_azulado);
+    font-size: 16px;
+    font-weight: 400;
+}

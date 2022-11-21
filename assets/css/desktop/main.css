@@ -1,0 +1,44 @@
+@media screen and (min-width: 800px) {
+    .corpo {
+        display: grid;
+        grid-template-rows: repeat(3, auto);
+        grid-template-columns: repeat(3, auto);
+        grid-template-areas: 
+            "img img new"
+            "titulo texto new"
+            "rank1 rank2 rank3";
+        row-gap: 1.5rem;
+        column-gap: 1.5rem;
+    }
+    
+    .corpo__imgMobile {
+        display: none;
+    }   
+
+    .corpo__imgDesktop {
+        display: block;
+        grid-area: img;
+        width: 100%;
+    }
+
+    .corpo__titulo {
+        grid-area: titulo;
+        padding: 0;
+        font-size: 45px;
+        line-height: 3rem;
+    }
+
+    .corpo__container {
+        grid-area: texto;
+        margin: 0;
+    }
+
+    .corpo__container .container__descricao {
+        font-size: 14px;
+    }
+
+    .container__btn:hover {
+        opacity: .8;
+        cursor: pointer;
+    }
+}

@@ -1,0 +1,50 @@
+.corpo {
+    display: flex;
+    flex-direction: column;
+}
+
+.corpo__imgMobile {
+    width: 100%;
+    display: block;
+}
+
+.corpo__imgDesktop {
+    display: none;
+}
+
+.corpo__titulo {
+    padding: 1.2rem 0;
+    font-weight: 800;
+    font-size: 40px;
+    width: 280px;
+    line-height: 2.5rem;
+    color: var(--cinza_escuro_azulado);
+}
+
+.corpo__container {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1.3rem;
+    margin-bottom: 2.5rem;
+}
+
+.corpo__container .container__descricao {
+    font-size: 15px;
+    color: var(--cinza_azulado);
+    line-height: 1.5rem;
+    font-weight: 400;
+}
+
+.corpo__container .container__btn {
+    width: 180px;
+    font-family: var(--fonte);
+    font-size: 12px;
+    color: var(--branco);
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: .4rem;
+    border: none;
+    padding: 1rem;
+    background-color: var(--vermelho);
+    transition: .3s;
+}

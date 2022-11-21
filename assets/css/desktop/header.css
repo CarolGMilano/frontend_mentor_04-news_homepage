@@ -1,0 +1,32 @@
+@media screen and (min-width: 800px) {
+    .cabecalho {
+        margin: 7rem 0 2rem 0;
+    }
+
+    .cabecalho__logo {
+        width: 60px;
+        height: auto;
+    }
+
+    .cabecalho__iconeMenu {
+        display: none;
+    }
+
+    .cabecalho__nav {
+        display: block;
+    }
+
+    .cabecalho__nav ul {
+        display: flex;
+        column-gap: 2rem;
+    }
+
+    .cabecalho__link {
+        font-size: 17px;
+        color: var(--cinza_escuro_azulado);
+    }
+
+    .cabecalho__link:hover {
+        border-bottom: 3px dotted var(--vermelho);
+    }
+}
